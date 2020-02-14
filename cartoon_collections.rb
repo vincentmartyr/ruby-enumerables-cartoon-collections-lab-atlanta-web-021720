@@ -37,8 +37,9 @@ end
 if array.include?("gouda") == true
 return "gouda"
 end
-array.include?("camembert") == true
+if array.include?("camembert") == true
 return "camembert"
+end
 
 
 end
