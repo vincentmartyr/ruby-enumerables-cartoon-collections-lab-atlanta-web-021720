@@ -30,9 +30,10 @@ end
 
 def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
-array.include?("cheddar")
-array.include?("gouda")
-array.include?("camembert")
+
+p array.include?("cheddar")
+p array.include?("gouda")
+p array.include?("camembert")
 
 
 end
