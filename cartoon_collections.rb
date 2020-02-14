@@ -33,6 +33,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 
 if array.include?("cheddar") == true
 p "cheddar"
+end
 array.include?("gouda") == true
 p "gouda"
 array.include?("camembert") == true
