@@ -31,7 +31,7 @@ end
 def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
 
-array.include?("cheddar") == true 
+array.include?("cheddar") == true
 p "cheddar"
 array.include?("gouda") == true
 p "gouda"
