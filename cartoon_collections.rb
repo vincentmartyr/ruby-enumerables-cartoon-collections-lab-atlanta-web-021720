@@ -30,24 +30,9 @@ end
 
 def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
-result = ""
-#  counter = 0
-#  while counter < array
-#array.find do |num|
-#  num.include(cheese_types)
-#    end
-#      counter += 1
-#    end
-if array.detect { |num| num == "cheddar"}
-p result = "cheddar"
-if array.detect { |num| num == "gouda"}
-p result = "gouda"
-if array.detect { |num| num == "camembert"}
-p result = "camembert"
-end
-end
-end
+array.include?("cheddar")
+array.include?("gouda")
+array.include?("camembert")
 
-result
 
 end
