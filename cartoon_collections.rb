@@ -34,10 +34,11 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 if array.include?("cheddar") == true
 return "cheddar"
 end
-array.include?("gouda") == true
-p "gouda"
+if array.include?("gouda") == true
+return "gouda"
+end
 array.include?("camembert") == true
-p "camembert"
+return "camembert"
 
 
 end
